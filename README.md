@@ -17,8 +17,8 @@ This project is a Node.js-based script to fetch details of a message sent via th
 ## Project Structure
 
 .
-├──&nbsp;main.js&nbsp;&nbsp;#&nbsp;Main&nbsp;script&nbsp;to&nbsp;fetch&nbsp;message&nbsp;details&nbsp;using&nbsp;Linea&nbsp;SDK
-└──&nbsp;.env&nbsp;&nbsp;#&nbsp;Environment&nbsp;variables
+├── main.js # Main script to fetch message details using Linea SDK  
+└── .env # Environment variables
 
 ## Setup Instructions
 
