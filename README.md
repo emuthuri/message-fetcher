@@ -17,8 +17,8 @@ This project is a Node.js-based script to fetch details of a message sent via th
 ## Project Structure
 
 .
-├── main.js # Main script to fetch message details using Linea SDK
-└── .env # Environment variables
+├──&nbsp;main.js&nbsp;&nbsp;#&nbsp;Main&nbsp;script&nbsp;to&nbsp;fetch&nbsp;message&nbsp;details&nbsp;using&nbsp;Linea&nbsp;SDK
+└──&nbsp;.env&nbsp;&nbsp;#&nbsp;Environment&nbsp;variables
 
 ## Setup Instructions
 
@@ -30,7 +30,7 @@ This project is a Node.js-based script to fetch details of a message sent via th
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/emuthuri/message-fetcher
+git clone https://github.com/emuthuri/message-fetcher.git
 ```
 
 ### 2. Install Dependencies
@@ -41,11 +41,13 @@ npm install
 
 ### 3. Create a `.env` file
 
+```plaintext
 L1_RPC_URL=<Your Ethereum L1 RPC URL>
 L2_RPC_URL=<Your Linea L2 RPC URL>
 L1_SIGNER_PRIVATE_KEY=<Private key for L1 signer>
 L2_SIGNER_PRIVATE_KEY=<Private key for L2 signer>
 L1_CONTRACT_ADDRESS=0xd19d4B5d358258f05D7B411E21A1460D11B0876F
+```
 
 ### 4. Run the Script
 
